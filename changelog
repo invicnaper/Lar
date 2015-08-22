@@ -1,0 +1,24 @@
+/*
+* _            
+*| |           
+*| | __ _ _ __ 
+*| |/ _` | '__|
+*| | (_| | |   
+*|_|\__,_|_| 
+*
+* 	@description     : a LZW compressor/decompressor written in C
+*	@author 	 : Naper
+*/
+
+|13 - feb 2015|
+
+-fixing some segmentation fault
+-adding --verbose
+-adding types file
+-adding recursive compression (-r)
+-you can use -c -d -h -r
+-parser for arguments
+-addind decompression
+-adding compression
+-adding node and list struct
+-Adding colors
