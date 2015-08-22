@@ -1,38 +1,44 @@
 /*
+* _
+*| |
+*| | __ _ _ __
+*| |/ _` | '__|
+*| | (_| | |
+*|_|\__,_|_|
 *
-*	MCOP is a huffman compressor written in C
-*	@author : hamza bourrahim
-*
+*       @description     : a LZW compressor/decompressor written in C
+*       @author          : Naper
 */
+
 
 [FR]
 
 Pour utiliser Mcop sur linux , merci d utiliser :
 
-	$ make compil    #will compile Mcop
+	$ make compil    #will compile lar
 
 après executer  :
 
-	$ ./m-cop
+	$ ./lar
 
 
 | Compresser un fichier |
 
-	$ ./m-cop -c <file>
+	$ ./lar -c <file>
 
 
 | décompresser file |
 
-	$ ./m-cop -d <file>
+	$ ./lar -d <file.lar>
 
 | Compresser des fichiers dans un dossier |
 
-	$ ./m-cop -r --type <type of file (.txt)>
+	$ ./lar -r <dir/>
 
 
 Vous pouvez utiliser le mode verbose pour chaque commande , on ajoutant --verbose à la fin
 
-	$ ./m-cop -c <file> --verbose
+	$ ./lar-c <file> --verbose
 
 
 Pour windows , ajouter le projet sur VC et compiler 
@@ -43,28 +49,28 @@ Pour windows , ajouter le projet sur VC et compiler
 
 using Mcop under Linux , please use : 
 
-	$ make compil    #will compile Mcop
+	$ make compil    #will compile lar
 
 then execute :
 
-	$ ./m-cop
+	$ ./lar
 
 
 | Compress file |
 
-	$ ./m-cop -c <file>
+	$ ./lar -c <file>
 
 
 | decompress file |
 
-	$ ./m-cop -d <file>
+	$ ./lar -d <file.lar>
 
 | Compress files in directory |
 
-	$ ./m-cop -r --type <type of file (.txt)>
+	$ ./lar -r <dir/>
 
 
 You can set --verbose mode for every action , just add --verbose at the end
 
-	$ ./m-cop -c <file> --verbose
+	$ ./lar -c <file> --verbose
 
