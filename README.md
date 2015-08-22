@@ -3,6 +3,8 @@ compressor/decompressor tool written in C for Linux and Windows , using the LZW 
 
 www.naper.eu/lar
 
+![alt text](http://nsa38.casimages.com/img/2015/08/22/150822073501915603.png "screen1")
+
 # Features
 Lar support many features that every compressor have, using the LZW alogrithme to compress Data . 
 
