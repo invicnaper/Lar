@@ -22,10 +22,6 @@ Email : contact@naper.eu
 # Stats
 Lar compression ratio
 
-Compressor	File	Size	Saved
-Lar	wifi.pdf	3.5Mb	84%
-Lar	ex1	107bytes	62%
-
 Compressor    | File         | Size         | Saved 
 ------------- | -------------| -------------| -------------
 Lar           | wifi.pdf     | 3.5Mb        | 84% 
